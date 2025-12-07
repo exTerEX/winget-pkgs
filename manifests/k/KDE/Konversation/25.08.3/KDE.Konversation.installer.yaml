@@ -1,0 +1,23 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: KDE.Konversation
+PackageVersion: 25.08.3
+InstallerType: nullsoft
+UpgradeBehavior: install
+ProductCode: Konversation
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/konversation/release-25.12/windows/konversation-release_25.12-1537-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 06F9B3ABA68E0065B7A3CB0EB07DC9FC32A1F6A333B0148380F4D6F867622B6B
+  InstallerSwitches:
+    Custom: /CurrentUser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/konversation/release-25.12/windows/konversation-release_25.12-1537-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 06F9B3ABA68E0065B7A3CB0EB07DC9FC32A1F6A333B0148380F4D6F867622B6B
+  InstallerSwitches:
+    Custom: /AllUsers
+ManifestType: installer
+ManifestVersion: 1.10.0

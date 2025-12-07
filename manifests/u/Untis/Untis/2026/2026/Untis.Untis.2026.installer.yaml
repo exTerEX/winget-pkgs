@@ -1,0 +1,21 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Untis.Untis.2026
+PackageVersion: "2026"
+InstallerType: nullsoft
+Scope: machine
+FileExtensions:
+- gpn
+- untis
+ProductCode: Untis 2026
+ReleaseDate: 2025-11-27
+Installers:
+- Architecture: x86
+  InstallerUrl: https://www.untis.at/fileadmin/downloads/2026/SetupUntis2026.exe
+  InstallerSha256: 1ACAA3F3A765AB6E3F60F2812479B961D900E6D7A34A15D04D4AF3827FE6AB9C
+- Architecture: x64
+  InstallerUrl: https://www.untis.at/fileadmin/downloads/2026/SetupUntis2026-x64.exe
+  InstallerSha256: A50A02D91E211D6DC2E602D680D96E0DF3E037CEDCB54A7D38FEB10B470696C9
+ManifestType: installer
+ManifestVersion: 1.10.0
