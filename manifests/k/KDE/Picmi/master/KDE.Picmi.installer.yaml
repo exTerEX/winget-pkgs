@@ -9,14 +9,14 @@ ProductCode: picmi
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-754-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 7946B5D9DF51307F3DAFA8B9F52BD1AB9C6EE8A5C003018FA4D607EE576BF2B7
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-760-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: CDC3FA381B97281596B9800D58B3C61E322C273B095CBA90E21E81CB7A41EC5A
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-754-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 7946B5D9DF51307F3DAFA8B9F52BD1AB9C6EE8A5C003018FA4D607EE576BF2B7
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-760-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: CDC3FA381B97281596B9800D58B3C61E322C273B095CBA90E21E81CB7A41EC5A
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
